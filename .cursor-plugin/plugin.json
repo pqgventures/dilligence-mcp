@@ -1,0 +1,25 @@
+{
+  "name": "dilligence",
+  "displayName": "Dilligence",
+  "version": "0.1.0",
+  "description": "Brazilian company clearance certificates (certidões negativas by CNPJ or CPF) in one request: federal tax, labor, FGTS, federal and labor courts nationwide, plus São Paulo state, city and court. Fetched from the issuers, each PDF read, positives flagged. New accounts get 30 free certificates.",
+  "author": {
+    "name": "PQG Ventures",
+    "email": "bruno@pqgventures.com"
+  },
+  "homepage": "https://dilligence.ia.br/agentes?ref=cursor-plugin",
+  "repository": "https://github.com/pqgventures/dilligence-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "brazil",
+    "cnpj",
+    "cpf",
+    "certidoes",
+    "certidao-negativa",
+    "due-diligence",
+    "kyc",
+    "compliance",
+    "legal"
+  ]
+}

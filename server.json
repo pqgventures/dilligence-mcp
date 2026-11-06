@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "br.ia.dilligence/certidoes",
+  "title": "Dilligence — certidões de empresas",
+  "description": "Certidões negativas de empresas (CNPJ) num pedido: pede nos órgãos, lê cada PDF e resume.",
+  "version": "1.1.0",
+  "websiteUrl": "https://dilligence.ia.br",
+  "repository": {
+    "url": "https://github.com/pqgventures/dilligence-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dilligence.ia.br/mcp/app"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://dilligence.ia.br/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer + sua chave da Dilligence (para clientes sem OAuth; sem chave só signup e list_catalog funcionam)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

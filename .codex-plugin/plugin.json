@@ -1,0 +1,29 @@
+{
+  "name": "dilligence",
+  "version": "0.1.0",
+  "description": "Brazilian company clearance certificates (certidões negativas by CNPJ or CPF) in one request: federal tax, labor, FGTS, federal and labor courts nationwide, plus São Paulo state, city and court. Fetched from the issuers, each PDF read, positives flagged. New accounts get 30 free certificates.",
+  "author": {
+    "name": "PQG Ventures"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Dilligence",
+    "shortDescription": "Certidões de empresas num pedido",
+    "longDescription": "Abra uma diligência por CNPJ ou CPF: a Dilligence pede as certidões nos órgãos (Receita, PGFN, FGTS, TST, TRTs, TRFs, TJSP, Sefaz, Prefeitura…), lê cada PDF e diz o que deu positivo. Entre com e-mail ou Google; a conta nova tem 30 certidões grátis.",
+    "developerName": "PQG Ventures",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://dilligence.ia.br",
+    "privacyPolicyURL": "https://dilligence.ia.br/privacidade",
+    "termsOfServiceURL": "https://dilligence.ia.br/termos",
+    "defaultPrompt": [
+      "@Dilligence abre uma diligência para o CNPJ 47.960.950/0001-21",
+      "@Dilligence quais certidões preciso para comprar um imóvel de uma empresa?",
+      "@Dilligence o que deu positivo na minha última diligência?"
+    ]
+  }
+}

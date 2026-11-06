@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dilligence": {
+      "type": "http",
+      "url": "https://dilligence.ia.br/mcp/app"
+    }
+  }
+}
