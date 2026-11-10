@@ -36,7 +36,9 @@ Settings → Plugins → add a custom MCP server with `https://dilligence.ia.br/
 
 ### Cursor
 
-Add this repository as a Cursor plugin, or put the server from [mcp.json](mcp.json) in `~/.cursor/mcp.json`.
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=dilligence&config=eyJ1cmwiOiJodHRwczovL2RpbGxpZ2VuY2UuaWEuYnIvbWNwL2FwcCJ9)
+
+One click installs the server in Cursor; sign in when it asks. Also listed in the [Cursor Directory](https://cursor.directory/plugins/dilligence). Or put the server from [mcp.json](mcp.json) in `~/.cursor/mcp.json`.
 
 ### Agent Skill (any agent that reads SKILL.md)
 
